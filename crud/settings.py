@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-psqlpd=021t@4332qb*pr=8@k4(cdbb*p3po2*=2r7%nkhmr!x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-mike.herokuapp.com', 'localhost']
 
 
 # Application definition
