@@ -20,7 +20,7 @@ class Food(viewsets.ModelViewSet):
 
 @api_view(['GET'])
 def home(request):
-    return Response({'message': 'Api Health good'}, status=status.HTTP_200_OK)
+    return Response({'message': 'Api Health good'}, status=status.HTTP_201_CREATED)
 
 @api_view(['GET'])
 def get_all_records(request):
