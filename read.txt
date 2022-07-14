@@ -19,3 +19,6 @@
 >>> 
 >>> Blog.objects.filter(tagline__iexact='Blog is related to NETFLIX') 
 <QuerySet [<Blog: Top 5 best Netflix Movies>]>
+
+
+--index-url https://dcsartifacts.dell.com/artifactory/api/pypi/python/simple/ --trusted-host dcsartifacts.dell.com
